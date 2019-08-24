@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/crystalsCollector.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+  <body>
+
+    <h1 id="title">CrystalCollector</h1>
+
+    <div id="rules-area">
+    Rules of the game: You get a random number at the start of the game. There are four crystals. When you click on a crystal you add a number to the total score.
+   You win the game if your total score matches with the random number, you lose the game if your total score goes above the random number.</h4>
+      
+    <div id="screen">
+
+      <div id="random-area"></div>
+
+      <div id="win-area"></div>
+      <div id="loss-area"></div>
+    </div>
+
+    <div>
+    
+      <div id="crystal-area"></div>
+      <div class="card-body text-center">
+        <img src="assets/images/gold.jpeg" id="gold">
+        <img src="assets/images/multiorange.png" id="orange">
+        <img src="assets/images/multipurple.png" id="multi">
+        <img src="assets/images/softpurple.png" id="purple">
+      </div>
+
+      <div id="score-title">Your total score is:</div>
+
+      <div id="score-area"></div>
+        <p id="currentScore"></p>
+        <p id="targetScore"></p>
+    </div>
+
+  </body>
+</html>
